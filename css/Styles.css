@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: url(../res/img/Grupal.jpg) bottom / cover fixed #000;
+}
+
+.tit {
+    margin-top: 12.5vh;
+    background: #0008;
+    padding-bottom: 1vh;
+    color: #A00;
+    font-family: CloisterBlack;
+    font-size: 90px;
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: -1px 1px 0px #FFF, 1px -1px 0px #FFF, 1px 1px 0px #FFF, -1px -1px 0px #FFF, 0px 0px 5px rgb(0, 0, 0), 0px 0px 10px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0), 0px 0px 30px rgb(0, 0, 0);
+}
+
+.subt {
+    font: Antapani 30px lighter;
+    color: #BBB;
+    background: #0008;
+    padding-bottom: 1vh;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 10px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0), 0px 0px 30px rgb(0, 0, 0);
+    letter-spacing: 6px;
+}
+
+.enlaces {
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.774);
+    border-bottom: 1px solid rgba(19, 0, 0, 0.705);
+}
+
+button {
+    margin: 0px 2px;
+    border: none;
+    padding: 10px;
+    font-family: Antapani;
+    color: rgb(187, 187, 187);
+    background-color: rgba(0, 0, 0, 0.705);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    width: 220px;
+}
+
+.pie {
+    background: linear-gradient(transparent,#000 80%);
+    margin-top: 70vh;
+    text-align: right;
+}
+
+.pie2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #666;
+    font-size: 0.11in;
+    padding: 2vh;
+    padding-top: 10vh;
+}
+
+.igpr {
+    color: #777;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px #4008,
+                0px 0px 10px #0008,
+                0px 0px 15px #0008;
+    width: 230px;
+    color: #FAA;
+    text-shadow: 0px 0px 5px #A00;
+}

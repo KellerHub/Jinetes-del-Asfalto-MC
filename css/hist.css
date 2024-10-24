@@ -1,0 +1,49 @@
+body {
+    background-image: url(../res/img/VT.jpg);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: exclusion;
+    background-position: 50% 50%;
+}
+
+.historia {
+    text-align: justify;
+    color: white;
+    margin: 0px 10%;
+    padding: 1% 0;
+    background: radial-gradient(#000E 50%,#0003);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+p{
+    margin: 20px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.esc {
+    margin: 20px 40%;
+    width: 20%;
+    filter: drop-shadow(8px 8px 2.8px #000);
+}
+
+.firma {
+    text-align: right;
+    margin: 50px 0 100px 0;
+    padding-right: 1%;
+}
+
+.pie {
+    background-color: rgb(10, 10, 10);
+    margin-top: 60%;
+    text-align: right;
+    border-top: 2px rgb(0, 0, 0) solid;
+}
+
+.pie2 {
+    margin-bottom: 0%;
+    padding-top: 10px
+}
